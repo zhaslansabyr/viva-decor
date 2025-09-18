@@ -9,7 +9,7 @@
 	border-radius: 2px;
 	border: 2px solid transparent;
 	position: absolute;
-	right: var(--container-padding-x);
+	right: 0;
 	bottom: 0;
 	cursor: pointer;
 	transition-duration: var(--transition-duration);
