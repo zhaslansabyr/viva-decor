@@ -4,8 +4,8 @@
 
 A modern and minimal landing page for an interior design studio, built with HTML5 and CSS3 to showcase elegance and style.
 
-- 🔗 [Live Demo](https://zhaslansabyr.github.io/kropp-fitness/)
-- 🎨 [Figma Design](https://www.figma.com/design/o0YbRKJam3S3IAR7l1mouj/Kropp-Fitness?node-id=0-1&t=M3KtNukdwbmA42co-1)
+- 🔗 [Live Demo](https://zhaslansabyr.github.io/viva-decor/)
+- 🎨 [Figma Design](https://www.figma.com/design/MjEPcushhpvDLJ9DDvEKRb/VivaDecor?node-id=0-1&t=V9GJ02r6KVFiKBaE-1)
 
 ---
 
