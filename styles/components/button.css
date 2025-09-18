@@ -1,0 +1,21 @@
+.button {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--color-light);
+	background-color: var(--color-dark);
+	border-radius: var(--border-radius);
+	border: 1px solid transparent;
+
+	transition-duration: var(--transition-duration);
+}
+
+.button:hover {
+	color: var(--color-dark);
+	border-color: currentColor;
+	background-color: transparent;
+}
+
+.button.button-sign-up {
+	font-size: 20px;
+	padding: 18px 50px;
+}

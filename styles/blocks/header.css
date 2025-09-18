@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 20px;
+	padding-top: 45px;
+}
+
+.header-menu-list {
+	display: flex;
+	column-gap: 60px;
+}
+
+.header-menu-link {
+	font-size: 22px;
+	font-weight: 600;
+
+	transition-duration: var(--transition-duration);
+}
+
+.header-menu-link:hover {
+	color: var(--color-dark);
+}
