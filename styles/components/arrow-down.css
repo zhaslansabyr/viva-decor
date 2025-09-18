@@ -16,6 +16,7 @@
 }
 
 .arrow-down:hover {
+	color: var(--color-dark);
 	border-color: currentColor;
-	background-color: var(--color-dark-gray);
+	background-color: var(--color-light);
 }

@@ -23,3 +23,8 @@
 .button.button-start {
 	padding: 28px 78px;
 }
+
+.button.button-learn-more {
+	padding-block: 26px;
+	max-width: 275px;
+}
