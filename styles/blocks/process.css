@@ -1,0 +1,79 @@
+.process {
+	display: flex;
+	justify-content: space-between;
+}
+
+.process-body {
+	max-width: 704px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 78px;
+}
+
+.process-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 60px;
+}
+
+.process-item {
+	display: flex;
+	column-gap: 64px;
+	position: relative;
+}
+
+.process-item:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	bottom: -14px;
+	left: 32px;
+	width: 1px;
+	height: 102px;
+	background-color: #9b9b9b;
+}
+
+.process-item-first::before {
+	content: "";
+	width: 72px;
+	height: 72px;
+	flex-shrink: 0;
+	margin-top: -16px;
+	background: url("../../assets/icons/process/1.svg") center/cover no-repeat;
+}
+
+.process-item-second::before {
+	content: "";
+	width: 72px;
+	height: 72px;
+	flex-shrink: 0;
+	margin-top: -16px;
+	background: url("../../assets/icons/process/2.svg") center/cover no-repeat;
+}
+
+.process-item-third::before {
+	content: "";
+	width: 72px;
+	height: 72px;
+	flex-shrink: 0;
+	margin-top: -16px;
+	background: url("../../assets/icons/process/3.svg") center/cover no-repeat;
+}
+
+.process-item-body {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.process-item-title {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.process-item-description {
+	font-size: 24px;
+}
+
+.process-image {
+	flex-shrink: 0;
+}

@@ -1,6 +1,6 @@
 .about {
 	display: flex;
-	column-gap: 102px;
+	justify-content: space-between;
 	margin-bottom: 240px;
 }
 
@@ -12,6 +12,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	max-width: 722px;
 }
 
 .about-body-header {
