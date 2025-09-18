@@ -28,3 +28,7 @@
 	padding-block: 26px;
 	max-width: 275px;
 }
+
+.button.button-subscribe {
+	padding: 28px 78px;
+}
