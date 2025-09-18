@@ -1,0 +1,21 @@
+.arrow-down {
+	width: 150px;
+	aspect-ratio: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-dark);
+	color: var(--color-light);
+	border-radius: 2px;
+	border: 2px solid transparent;
+	position: absolute;
+	right: var(--container-padding-x);
+	bottom: 0;
+	cursor: pointer;
+	transition-duration: var(--transition-duration);
+}
+
+.arrow-down:hover {
+	border-color: currentColor;
+	background-color: var(--color-dark-gray);
+}

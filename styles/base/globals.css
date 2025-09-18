@@ -1,5 +1,5 @@
 body {
-	color: var(--color-dark-gray);
+	color: var(--color-dark);
 	background-color: var(--color-light);
 	font-family: "Inter", sans-serif;
 	font-weight: 500;
@@ -29,4 +29,27 @@ svg * {
 a {
 	color: var(--color-dark-gray);
 	text-decoration: none;
+}
+
+button {
+	border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 58px;
+	font-weight: 600;
+	color: var(--color-dark);
+}
+
+p {
+	color: var(--color-dark-gray);
 }
