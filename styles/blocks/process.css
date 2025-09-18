@@ -1,6 +1,7 @@
 .process {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 228px;
 }
 
 .process-body {
