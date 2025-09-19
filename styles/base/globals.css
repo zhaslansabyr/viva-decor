@@ -7,9 +7,6 @@ body {
 	font-size: 24px;
 }
 
-svg *[fill] {
-	fill: currentColor;
-}
 svg *[stroke] {
 	stroke: currentColor;
 }

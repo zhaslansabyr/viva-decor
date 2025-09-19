@@ -4,6 +4,10 @@
 	flex-direction: column;
 	row-gap: 115px;
 	text-align: center;
+	position: relative;
+	z-index: 1;
+	max-width: 980px;
+	margin-inline: auto;
 }
 
 .newsletter-header {
@@ -25,14 +29,18 @@
 	align-items: center;
 	justify-content: space-between;
 	box-shadow: 0 10px 100px rgba(0, 0, 0, 0.14);
+	background-color: var(--color-light);
 	padding: 10px 10px 10px 50px;
 	border-radius: var(--border-radius);
 	width: 980px;
+	margin-bottom: -52px;
+	column-gap: 18px;
 }
 
 .newsletter-form-body {
 	display: flex;
 	column-gap: 18px;
+	flex-grow: 1;
 }
 
 .newsletter-form-email-icon {
@@ -48,6 +56,7 @@
 	color: #8c8c8c;
 	border: none;
 	outline: none;
+	width: 100%;
 }
 
 .newsletter-form-email-input::placeholder {
